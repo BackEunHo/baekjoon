@@ -1,7 +1,8 @@
+import sys
 n = int(input())
 arr = []
 for i in range(n):
-    x,y = map(int,input().split())
+    x,y = map(int,sys.stdin.readline().split())
     arr.append((y,x))
 arr.sort()
 
